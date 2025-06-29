@@ -20,6 +20,10 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "setupFilesAfterEnv": ["@testing-library/jest-dom/extend-expect"]
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
